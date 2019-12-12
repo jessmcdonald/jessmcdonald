@@ -181,7 +181,7 @@ ul {
     #8ca7df 83%,
     #859cd1 100%
   );
-  background-size: 160px 6px;
+  background-size: 200% 6px;
   transition: background-size 0.5s;
 }
 
@@ -211,14 +211,17 @@ ul {
   padding-bottom: 200px;
 }
 
+.projects {
+  padding-bottom: 50px;
+}
 .skills {
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 200px;
 }
 
 .contact {
   padding-top: 150px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .contact-div {
@@ -234,5 +237,6 @@ ul {
 }
 
 .icon {
-  padding-right: 8px;
+  padding: 8px;
+  border-radius: 10px;
 }
