@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-size: 100% 5%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
+}
+
+h1 {
+  margin-bottom: 3.5rem;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button-div {
+  position: absolute;
+  bottom: 25px;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px #000;
+  background: #8c99df;
+  color: #111;
+  margin-left: 7px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #000;
+  color: #8c99df;
+  transition: all 0.5s;
+}
+
+.button:active {
+  box-shadow: 0 0;
+  transition: all 0.5s;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.project {
+  border: 2px solid #000;
+  box-shadow: 10px 10px #be8cdf;
+  padding: 25px;
+  position: relative;
+  background: linear-gradient(270deg, #8cdfc6, #8c99df, #8ca7df);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+.container > * {
+  padding: 10px;
+  flex: 1 100%;
+  align-items: stretch;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  padding: 50px;
+
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
+
+  background: linear-gradient(270deg, #8cdfc6, #8c99df, #8ca7df);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 27s ease infinite;
+  -moz-animation: AnimationName 27s ease infinite;
+  -o-animation: AnimationName 27s ease infinite;
+  animation: AnimationName 27s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rainbow {
+  background-image: linear-gradient(
+    90deg,
+    hsl(284, 91%, 69%) 0%,
+    hsl(284, 91%, 69%) 12.5%,
+    hsl(329, 91%, 69%) 12.5%,
+    hsl(329, 91%, 69%) 25%,
+    hsl(14, 91%, 69%) 25%,
+    hsl(14, 91%, 69%) 37.5%,
+    hsl(59, 91%, 69%) 37.5%,
+    hsl(59, 91%, 69%) 50%,
+    hsl(104, 91%, 69%) 50%,
+    hsl(104, 91%, 69%) 62.5%,
+    hsl(149, 91%, 69%) 62.5%,
+    hsl(149, 91%, 69%) 75%,
+    hsl(194, 91%, 69%) 75%,
+    hsl(194, 91%, 69%) 87.5%,
+    hsl(239, 91%, 69%) 87.5%,
+    hsl(239, 91%, 69%) 100%
+  );
+  transition: background-size 0.5s;
+  background-size: 100px 6px;
+}
+
+.rainbow:hover {
+  background-image: linear-gradient(
+    90deg,
+    hsl(284, 91%, 69%) 0%,
+    hsl(284, 91%, 69%) 12.5%,
+    hsl(329, 91%, 69%) 12.5%,
+    hsl(329, 91%, 69%) 25%,
+    hsl(14, 91%, 69%) 25%,
+    hsl(14, 91%, 69%) 37.5%,
+    hsl(59, 91%, 69%) 37.5%,
+    hsl(59, 91%, 69%) 50%,
+    hsl(104, 91%, 69%) 50%,
+    hsl(104, 91%, 69%) 62.5%,
+    hsl(149, 91%, 69%) 62.5%,
+    hsl(149, 91%, 69%) 75%,
+    hsl(194, 91%, 69%) 75%,
+    hsl(194, 91%, 69%) 87.5%,
+    hsl(239, 91%, 69%) 87.5%,
+    hsl(239, 91%, 69%) 100%
+  );
+  background-size: 100px 70px;
+}
+
+.intro {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
