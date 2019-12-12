@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 
 body {
@@ -40,7 +42,7 @@ ul {
   box-shadow: 4px 4px #000;
   background: #8c99df;
   color: #111;
-  margin-left: 7px;
+  margin-right: 7px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -56,6 +58,21 @@ ul {
   transition: all 0.5s;
 }
 
+.nav-bar {
+  border: 2px solid #000;
+  box-shadow: 4px 4px #000;
+
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(270deg, #8cdfc6, #8c99df, #8ca7df);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -67,6 +84,7 @@ ul {
   border: 2px solid #000;
   box-shadow: 10px 10px #be8cdf;
   padding: 25px;
+  padding-bottom: 60px;
   position: relative;
   background: linear-gradient(270deg, #8cdfc6, #8c99df, #8ca7df);
   background-size: 600% 600%;
@@ -75,6 +93,13 @@ ul {
   -moz-animation: AnimationName 10s ease infinite;
   -o-animation: AnimationName 10s ease infinite;
   animation: AnimationName 10s ease infinite;
+}
+
+.long-text {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
 .container > * {
@@ -146,54 +171,68 @@ ul {
   }
 }
 
-.rainbow {
+.pastel {
   background-image: linear-gradient(
     90deg,
-    hsl(284, 91%, 69%) 0%,
-    hsl(284, 91%, 69%) 12.5%,
-    hsl(329, 91%, 69%) 12.5%,
-    hsl(329, 91%, 69%) 25%,
-    hsl(14, 91%, 69%) 25%,
-    hsl(14, 91%, 69%) 37.5%,
-    hsl(59, 91%, 69%) 37.5%,
-    hsl(59, 91%, 69%) 50%,
-    hsl(104, 91%, 69%) 50%,
-    hsl(104, 91%, 69%) 62.5%,
-    hsl(149, 91%, 69%) 62.5%,
-    hsl(149, 91%, 69%) 75%,
-    hsl(194, 91%, 69%) 75%,
-    hsl(194, 91%, 69%) 87.5%,
-    hsl(239, 91%, 69%) 87.5%,
-    hsl(239, 91%, 69%) 100%
+    #84d1cb 16.6%,
+    #8cdfc6 33.2%,
+    #aeb7e8 49.8%,
+    #8c99df 66.4%,
+    #8ca7df 83%,
+    #859cd1 100%
   );
+  background-size: 160px 6px;
   transition: background-size 0.5s;
-  background-size: 100px 6px;
 }
 
-.rainbow:hover {
-  background-image: linear-gradient(
+.pastel:hover {
+  background: linear-gradient(
     90deg,
-    hsl(284, 91%, 69%) 0%,
-    hsl(284, 91%, 69%) 12.5%,
-    hsl(329, 91%, 69%) 12.5%,
-    hsl(329, 91%, 69%) 25%,
-    hsl(14, 91%, 69%) 25%,
-    hsl(14, 91%, 69%) 37.5%,
-    hsl(59, 91%, 69%) 37.5%,
-    hsl(59, 91%, 69%) 50%,
-    hsl(104, 91%, 69%) 50%,
-    hsl(104, 91%, 69%) 62.5%,
-    hsl(149, 91%, 69%) 62.5%,
-    hsl(149, 91%, 69%) 75%,
-    hsl(194, 91%, 69%) 75%,
-    hsl(194, 91%, 69%) 87.5%,
-    hsl(239, 91%, 69%) 87.5%,
-    hsl(239, 91%, 69%) 100%
+    #84d1cb 16.6%,
+    #8cdfc6 33.2%,
+    #aeb7e8 49.8%,
+    #8c99df 66.4%,
+    #8ca7df 83%,
+    #859cd1 100%
   );
-  background-size: 100px 70px;
+  background-size: 600% 600%;
+  transition: background-size 0.5s;
+
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  -o-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 2s ease infinite;
+
+  border-radius: 10px;
 }
 
 .intro {
   padding-top: 150px;
   padding-bottom: 200px;
+}
+
+.skills {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.contact {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.contact-line > * {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon {
+  padding-right: 8px;
 }
