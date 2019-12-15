@@ -184,7 +184,7 @@ ul {
   }
 
   .nav {
-    width: 800px;
+    width: 1800px;
     display: flex;
     justify-content: flex-end;
     z-index: 100;
@@ -201,6 +201,7 @@ ul {
     align-items: center;
     justify-content: space-around;
   }
+
   .nav-item {
     font-weight: 600;
     font-size: 30px;
