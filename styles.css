@@ -154,6 +154,11 @@ ul {
   .intro-box {
     width: 800px;
   }
+
+  .intro {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
 }
 
 @-webkit-keyframes AnimationName {
