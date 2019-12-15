@@ -184,7 +184,7 @@ ul {
   }
 
   .nav {
-    width: 1800px;
+    width: 300px;
     display: flex;
     justify-content: flex-end;
     z-index: 100;
