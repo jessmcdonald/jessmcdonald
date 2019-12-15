@@ -137,6 +137,9 @@ ul {
     -o-animation: AnimationName 27s ease infinite;
     animation: AnimationName 27s ease infinite;
   }
+  .intro-box {
+    width: 55%;
+  }
 }
 
 @media (max-width: 499px) {
@@ -270,9 +273,7 @@ ul {
   font-weight: 600;
   font-size: 30px;
 }
-.intro-box {
-  width: 55%;
-}
+
 .intro-container {
   width: 95%;
   text-align: left;
