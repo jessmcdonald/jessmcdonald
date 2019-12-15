@@ -148,6 +148,9 @@ ul {
     background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
     background-size: 1000% 1000%;
   }
+  .intro-box {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes AnimationName {
