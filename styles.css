@@ -119,22 +119,34 @@ ul {
   align-items: stretch;
 }
 
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  height: 100%;
-  padding: 50px;
+@media (min-width: 500px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    padding: 50px;
 
-  scroll-snap-type: y mandatory;
-  scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 
-  background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
-  background-size: 600% 600%;
+    background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
+    background-size: 600% 600%;
 
-  -webkit-animation: AnimationName 27s ease infinite;
-  -moz-animation: AnimationName 27s ease infinite;
-  -o-animation: AnimationName 27s ease infinite;
-  animation: AnimationName 27s ease infinite;
+    -webkit-animation: AnimationName 27s ease infinite;
+    -moz-animation: AnimationName 27s ease infinite;
+    -o-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+  }
+}
+
+@media (max-width: 499px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    padding: 50px;
+    background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
+  }
 }
 
 @-webkit-keyframes AnimationName {
