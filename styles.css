@@ -329,13 +329,18 @@ ul {
 
 .mini-project-container {
   display: grid;
-  grid-template-columns: 55% 40%;
+  grid-template-columns: 55% 20% 20%;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+  align-items: center;
 }
 
-.mini-button-div {
-  display: flex;
+.mini-portfolio-div {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  align-items: center;
 }
 
 .icon {
