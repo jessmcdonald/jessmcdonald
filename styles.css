@@ -161,14 +161,14 @@ p {
 @media (max-width: 499px) {
   .container {
     display: flex;
-    flex-flow: row wrap;
-    height: 100%;
+    flex-wrap: wrap;
+    flex: 1 100%;
     padding: 50px;
     background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
     background-size: 1000% 1000%;
   }
-  .intro-box {
-    width: 800px;
+  .section-intro {
+    flex: 1 100%;
   }
 
   .intro {
@@ -178,11 +178,11 @@ p {
 
   .nav {
     z-index: 100;
+    width: 100%;
   }
 
   .nav-box {
-    height: 50px;
-    width: 400px;
+    width: 100%;
     position: fixed !important;
   }
   .nav-container {
