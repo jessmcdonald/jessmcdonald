@@ -182,12 +182,12 @@ p {
   }
 
   .nav-box {
-    width: 100%;
+    flex: 1 100%;
     position: fixed !important;
   }
   .nav-container {
-    width: 400px;
     display: flex;
+    flex: 1 100%;
     align-items: center;
     justify-content: space-around;
   }
