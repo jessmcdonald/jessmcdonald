@@ -17,12 +17,9 @@ a {
   background-position: left 0% bottom 10%;
 }
 
-
-
 h3 {
   font-weight: 500;
 }
-
 
 .intro-container h3 {
   margin-block-start: 0em;
@@ -36,8 +33,6 @@ h3 {
   font-size: 35px;
   margin-block-start: 0.2em;
 }
-
-
 
 .button-div {
   position: absolute;
@@ -57,8 +52,6 @@ h3 {
 .button-text {
   margin-top: 7px;
 }
-
-
 
 .container > * {
   padding: 10px;
@@ -150,6 +143,11 @@ h3 {
     justify-content: space-around;
   }
 
+  .project-container {
+    text-align: left;
+    padding: 25px;
+  }
+
   h1 {
     margin-bottom: 3.5rem;
     font-size: 48px;
@@ -224,7 +222,9 @@ h3 {
 }
 
 /*****************************/
+/*****************************/
 /*MOBILE DEVICE*/
+/*****************************/
 /*****************************/
 
 @media (max-width: 499px) {
@@ -235,7 +235,7 @@ h3 {
   }
   .container > * {
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 25px;
     flex: 0.9 90%;
     align-items: stretch;
   }
@@ -273,6 +273,11 @@ h3 {
     justify-self: center
   }
   
+  .project-container {
+    text-align: left;
+    padding: 0px;
+  }
+
   .nav-container {
     width: 100%;
     display: grid;
@@ -495,13 +500,6 @@ a.button-link:hover {
 
 
 
-
-
-
-.project-container {
-  text-align: left;
-  padding: 25px;
-}
 
 .box-1 {
   background: #8c99df;
