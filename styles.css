@@ -31,24 +31,7 @@ h3 {
 
 
 
-.button-div {
-  position: absolute;
-  bottom: 25px;
-  display: flex;
-}
 
-.button {
-  height: 10px;
-  width: 50px;
-  font-size: 20px;
-  font-weight: 500;
-  padding-top: 4px;
-  margin-right: 20px;
-}
-
-.button-text {
-  margin-top: 7px;
-}
 
 .container > * {
   padding: 10px;
@@ -175,6 +158,25 @@ h3 {
     );
   }
 
+  .button-div {
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+  }
+  
+  .button {
+    height: 10px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 4px;
+    margin-right: 20px;
+  }
+  
+  .button-text {
+    margin-top: 7px;
+  }
+
   /*****************************/
 /*PROJECTS GRID*/
 /*****************************/
@@ -244,7 +246,7 @@ h3 {
   }
 
   .intro {
-    padding-top: 30px;
+    padding-top: 150px;
     padding-bottom: 30px;
   }
   
@@ -285,6 +287,15 @@ h3 {
   .project-container {
     text-align: left;
     padding: 0px;
+  }
+
+  .nav {
+    z-index: 100;
+    position: fixed !important;
+  }
+  
+  .nav-box {
+    width: 100%
   }
 
   .nav-container {
@@ -339,6 +350,23 @@ h3 {
     );
   }
 
+  .button-div {
+    display: flex;
+  }
+  
+  .button {
+    height: 10px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 4px;
+    margin-right: 20px;
+  }
+  
+  .button-text {
+    margin-top: 7px;
+  }
+
   /*****************************/
 /*PROJECTS GRID*/
 /*****************************/
@@ -349,13 +377,12 @@ h3 {
   grid-row-gap: 55px;
 }
 
-
-
 .long-text {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+  margin-bottom: 10px
 }
 
 }
