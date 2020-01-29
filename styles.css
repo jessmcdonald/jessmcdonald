@@ -222,6 +222,7 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+  font-size: 20px;
 }
 
 .mini-project-container {
