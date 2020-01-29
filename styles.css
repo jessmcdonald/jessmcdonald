@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: "Jost", "Roboto", sans-serif;
+  word-wrap: break-word;
 }
 
 a {
@@ -208,9 +209,12 @@ p {
 
   .contact-icons {
     display: grid;
-    grid-template-columns: 50%, 50%;
-    grid-row-gap: 20px;
-    padding: 10px;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+    padding-bottom: 20px;
+  }
+  .icon-box {
+    justify-self: center
   }
 }
 
