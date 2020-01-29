@@ -216,6 +216,9 @@ p {
   .icon-box {
     justify-self: center
   }
+  .nav-item {
+    font-size: 25px;
+  }
 }
 
 @-webkit-keyframes AnimationName {
