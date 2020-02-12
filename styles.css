@@ -49,7 +49,7 @@ h3 {
     scroll-snap-type: y mandatory;
     scroll-snap-type: y proximity;
 
-    background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1);
+    background: linear-gradient(270deg, #cdf7f2, #82ebe0, #859cd1, #c685d1);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 27s ease infinite;
