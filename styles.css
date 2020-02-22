@@ -180,7 +180,7 @@ h3 {
   .projects-container {
     display: grid;
     grid-template-columns: [first] 22% [line2] 15% [line3] 22% [line4] 15% [end];
-    grid-template-rows: [row1-start] 100px [row1-end row2-start] 600px [row2-end row3-start] 200px [row3-end row4-start] 600px [row4-end row5-start] 150px [row5-end row6-start] 300px [row6-end end];
+    grid-template-rows: [row1-start] 100px [row1-end row2-start] 600px [row2-end row3-start] 200px [row3-end row4-start] 600px [row4-end row5-start] 150px [row5-end row6-start] 350px [row6-end end];
     grid-column-gap: 100px;
     grid-row-gap: 100px;
   }
