@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Jost";
+  src: local("Jost-400-Book"),
+    url(./Jost/TrueType/Jost-400-Book.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost-500-Medium"),
+    url(./Jost/TrueType/Jost-500-Medium.ttf) format("truetype");
+}
+
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
@@ -5,7 +17,9 @@ html {
 }
 
 body {
-  font-family: "Jost", "Roboto", sans-serif;
+  font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   word-wrap: break-word;
 }
 
