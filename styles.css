@@ -243,11 +243,10 @@ h3 {
   }
 
   .mini-project-container {
-    padding: 10px;
     display: grid;
-    grid-template-columns: 55% 20% 20%;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-template-columns: 50% 20% 20%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
     align-items: center;
   }
 
