@@ -243,6 +243,7 @@ h3 {
   }
 
   .mini-project-container {
+    padding: 10px;
     display: grid;
     grid-template-columns: 55% 20% 20%;
     grid-column-gap: 5px;
