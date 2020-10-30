@@ -419,8 +419,8 @@ h3 {
   }
 
   .misc-project-title {
-    margin-left: 40px;
-    margin-right: 50px;
+    width: 80%;
+    margin: auto;
   }
 
   .mini-project-container {
@@ -429,8 +429,8 @@ h3 {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 20px;
+    width: 80%;
+    margin: auto;
   }
 
   .mini-portfolio-div {
@@ -439,8 +439,8 @@ h3 {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 20px;
+    width: 80%;
+    margin: auto;
   }
 }
 
