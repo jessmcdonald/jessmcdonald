@@ -1,13 +1,15 @@
 @font-face {
   font-family: "Jost";
   src: local("Jost-400-Book"),
-    url(./Jost/TrueType/Jost-400-Book.ttf) format("truetype");
+    url(./Jost/jost-v14-latin-regular.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Jost";
   src: local("Jost-500-Medium"),
-    url(./Jost/TrueType/Jost-500-Medium.ttf) format("truetype");
+    url(./Jost/jost-v14-latin-500.woff2) format("woff2");
+  font-display: swap;
 }
 
 html {
