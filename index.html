@@ -4,345 +4,52 @@
     <meta charset="utf-8" />
     <title>Jess McDonald | Portfolio</title>
 
-    <link rel="preload" as="font" href="Jost/jost-v14-latin-regular.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="Jost/jost-v14-latin-500.woff2" type="font/woff2" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="icon" type="image/png" href="./img/fav-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="./img/fav-16x16.png" sizes="16x16" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  
+
   <body class="container">
-    
-<div class="nav">
 
+    <div class="lilac-stripey"></div>
 
-  <div class="nav-box box-1">
-    <div class='nav-container'>
-    <div>
-          <a class="pastel nav-item" href="#about">about</a>
-      </div>
-      <div>
-        <a class="pastel nav-item" href="#projects">projects</a>
-      </div>
-      
-      <div>
-        <a class="pastel nav-item" href="#contact">contact</a>
-      </div>
-</div>            
-</div>  
-</div>
-        
-      
-      <div class="lilac-stripey"></div>
-        
-      <div class="section intro" id="about">
-        <div class='box-3 intro-box'>
-          <div class="intro-container">
-              <h1>
-                👋 Hi, I'm Jess<br>
-              </h1>
-              <h2>
-                👩‍💻 Developer & project manager based in Berlin.
-              </h2>
-              <h3><b>Right now I'm a software engineer. In a former life I had an 8 year career in the online and e-commerce industry.
-                This gives me a unique and highly relevant skill set: I’m a full-stack developer who can also scope and manage large development projects, translate business objectives into tangible actions and effectively lead across and upwards various stakeholders and senior management.
-                <br>
-                I’m passionate about using tech to solve real problems, every decision I make relates to how I can improve the experience of my users.</b>
-              </h3>
-              
-            
-              <!--<h2>
-                👉 Check out my <a class="pastel" href="https://github.com/jessmcdonald" target="_blank">GitHub</a>
-              </h2> -->
-    
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="projects" class="section projects">
-      
-        <div class="box-1 title-box">
-          Projects
-        </div>
-      
-      
-      
-      
-      <div class='projects-container'>
+    <div id="about" class="section contact">
 
-
-
-        <div class='box-3 chat-project project item-a'>
-          <div class="project-container">
-
-            <h2 class='project-title'>hello-chat</h2>
-          <img src="https://i.imgur.com/U1csCm7.png" width="100%"/>
-          
-          <p>
-            <b>Mobile chat app built with React Native and using Expo.</b></p>
-            <p>
-
-            Uses GiftedChat interface<br>
-            Data stored both in Google Firestore DB & locally<br>
-            Allows users to send text messages, upload images from their camera roll, take photos with device's camera<br>
-            & send their current location with MapView
-            </p>
-          </p>
-          <div class='button-div'>
-                <div class="box-6 button">
-                    <a href='https://github.com/jessmcdonald/hello-chat' target="_blank" class="button-link">
-                      <p class="button-text">Code</p>
-                    </a>
-                  </div>
-                </div>
-          </div>
-        </div>
-
-        <div class='box-3 spotify-project project item-e'>
-          <div class="project-container">
-
-            <h2 class='project-title'>SpotChip</h2>
-          <img src="https://i.imgur.com/ECG9Qcu.jpg" width="100%"/>
-          
-          <p>
-            <b>Spotify App built with React.</b></p>
-            <p>
-              Uses Spotify API<br>
-              Allows users to view profile info, see listening stats and play tracks<br>
-              Express server for Auth<br>
-              Front end built with React<br>
-              Data visualisation with ReCharts<br>
-              //WIP incorporate Songkick API to allow users to find upcoming shows based on their Spotify listening history
-            
-            </p>
-          </p>
-          <div class='button-div'>
-            <div class="box-6 button">
-              <a href="http://spotify-spot.herokuapp.com/" target="_blank" class="button-link">
-                <p class='button-text' >Live</p>
-              </a>
-            </div>
-            <div class="box-6 button">
-              <a href="https://github.com/jessmcdonald/spotChip" target="_blank" class="button-link">
-                <p class='button-text'>Code</p></a>
-            </div>
-          </div>
-          </div>
-        </div>
-        
-        <div class='box-3 meetus-project project item-b'>
-          <div class="project-container">
-          <h2 class='project-title'>Meetus</h2>
-          <img src="https://i.imgur.com/XsYJ3Yw.png" width="100%" />
-
-          <h3><b>Serverless PWA built with React using TDD technique.</b></h3>
-          <p>
-            Uses <a href='https://secure.meetup.com/meetup_api'>Meetup API</a><br>
-            Allows users to find events in their area & display details<br>
-            Serverless functions - Auth server: AWS Lambda<br>
-            Data visualisations using Recharts<br>
-            TDD using Jest-Cucumber & Puppeteer<br>
-            Monitored with Atatus<br>
-          </p>
-
-
-          <div class='button-div'>
-              <div class="box-6 button">
-                <a href="https://jessmcdonald.github.io/meetup/" target="_blank" class="button-link">
-                  <p class='button-text'>Live</p>
-                </a>
-              </div>
-              <div class="box-6 button">
-                <a href="https://github.com/jessmcdonald/meetup" target="_blank" class="button-link">
-                  <p class='button-text'>Code</p>
-                </a>
-              </div>
-          </div>
-
-        </div>
-        </div>
-        
-        <div class='box-3 myflix-project project item-c'>
-          <div class='project-container'>
-          <h2 class='project-title'>MyFlix</h2>
-          <img src="https://i.imgur.com/twq0in3.jpg" width="100%" />
-          
-          <h3><b>MERN app storing & displaying movie & user data.</b></h3>
-          <div class='long-text'>
-            <div>
-              <b>Back end:</b><br>
-              REST API<br>
-              Node.js & Express app<br>
-              DB built with MongoDB<br>
-              business logic modelled with Mongoose<br>
-            </div>
-            <div>
-              <b>Front end:</b><br>
-              SPA built using React with React Redux<br>
-              allows users to:<br>
-              view movie, director & genre info<br>
-              create an account & save movies to favourites<br>
-              styled with Bootstrap
-            </div>
-            </div>
-
-          
-          <div class='button-div'>
-              <div class="box-6 button">
-                <a href="https://myflixmovies.herokuapp.com/client/" target="_blank" class="button-link">
-                  <p class='button-text' >Live</p>
-                </a>
-              </div>
-              <div class="box-6 button">
-                <a href="https://github.com/jessmcdonald/myflix" target="_blank" class="button-link">
-                  <p class='button-text'>Code</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-
-        <div class='box-3 misc-project project item-d'>
-          <div class="project-container">
-          <h2 class="misc-project-title">Other bits and bobs I've been working on:</h2>
-          <div class="mini-portfolio-div">
-            <h3><b>This site!</b><br> nothing but good old fashioned HTML & CSS</h3>
-          <div class="box-6 button">
-            <a href="https://github.com/jessmcdonald/jessmcdonald" target="_blank" class="button-link">
-              <p class='button-text'>Code</p>
-            </a>
-          </div>
-          </div>
-          
-          <div class="mini-project-container">
-
-              <h3><b>Pokédex:</b><br>Vanilla JS, Boostrap, Fetches from PokéAPI</h3>
-              
-                  <div class="box-6 button">
-                    <a href="https://jessmcdonald.github.io/pokedex-app/" target="_blank" class="button-link">
-                      <p class='button-text'>Live</p>
-                    </a>
-                  </div>
-                  <div class="box-6 button">
-                    <a href="https://github.com/jessmcdonald/pokedex-app" target="_blank" class="button-link">
-                      <p class='button-text'>Code</p>
-                    </a>
-                  </div>
-               
-
-              <h3><b>To-Do:</b><br>Vue.js, vueDraggable, vue-material</h3>
-              
-              <div class="box-6 button">
-                <a href="https://jessmcdonald.github.io/todo-app/" target="_blank" class="button-link">
-                  <p class='button-text' >Live</p>
-                </a>
-              </div>
-              <div class="box-6 button">
-                <a href="https://github.com/jessmcdonald/todo-app" target="_blank" class="button-link">
-                  <p class='button-text'>Code</p>
-                </a>
-              </div>
-           
-
-              <h3><b>Let's Get Quizzical:</b><br>Angular & TypeScript</h3>
-          
-            
-              <div class="box-6 button">
-                <a href="https://jessmcdonald.github.io/lets-get-quizzical-app/welcome" target="_blank" class="button-link">
-                  <p class='button-text' >Live</p>
-                </a>
-              </div>
-              <div class="box-6 button">
-                <a href="https://github.com/jessmcdonald/lets-get-quizzical-app" target="_blank" class="button-link">
-                  <p class='button-text'>Code</p>
-                </a>
-              </div>
-            
-          </div>
-        </div>
-
-        </div>
-</div>
-
-           
-
-    <div class="section contact">
-        
-      <div id="contact" class="box-1 title-box">
-            Contact
-      </div>
-      
-        
-      <div  class='box-3 contact-box'>
-            
-        <div class='contact-container'>
-          
+      <div class="box-3 contact-box">
+        <div class="contact-container">
+          <h1>
+            👋 Hi, I'm Jess
+          </h1>
           <h2>
-            <p>
-            Right now I'm working as a Software Engineer at Spark Networks in Berlin.
+            👩‍💻 Freelance product engineer & project manager based in Berlin.
+          </h2>
+          <p>
+            Right now I'm a software engineer. In a former life I had an 8 year career in the online and e-commerce industry.
+            I'm passionate about using tech to solve real problems, every decision I make relates to how I can improve the experience of my users.
           </p>
-          <!--<p>
-            Front end / back end / full-stack, if you have a Jess-shaped role in your team I'd love to hear from you!
-          </p>-->    
           <p>
             I'm always on the lookout for anything cool to work on, so if you think I can help with your project, drop me a line!
-          </p><br>
-             <b>jessicajsmcdonald (at) gmail (dot) com</b>
-              <p>
-                <!--
-                  <br><big>
-                  👉 Get my <a class="pastel" href="/img/JessicaMcDonald_CV.pdf" download>CV</a>
-                </big>
-              -->
+          </p>
+          <p><b>jessicajsmcdonald (at) gmail (dot) com</b></p>
+        </div>
+      </div>
 
-              </p>
-        </h2>
-              
-            
-                  
-                
-                
-            </div>
-            
-          </div>
-        
-          <div class='contact-icons'>
-            <div class="box-1 icon-box">
-                <a href='https://github.com/jessmcdonald' target="_blank" class="icon-link">
-                  <img src="https://i.imgur.com/4dqq99D.png" width="40px" class="icon"/>
-                </a>
-              </div>
-                
-              <div class="box-1 icon-box">
-                <a href="https://www.linkedin.com/in/jessicajanemcdonald" target="_blank" class="icon-link">
-                  <img src="https://i.imgur.com/YsBNxL5.png" width="40px" class="icon"/>
-                </a>
-              </div>
-              <div class="box-1 icon-box">
-                <a href="https://dev.to/jessmcdonald" target="_blank" class="icon-link">
-                  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Jess McDonald's DEV Profile" height="40px" class="icon">
-                </a>
-              </div>
-              <div class="box-1 icon-box">
-                <a href='https://twitter.com/jesssssssssss' target="_blank" class="icon-link" >
-                  <img src="https://i.imgur.com/iswfZkr.png" width="40px" class="icon"/>
-                </a>
-              </div>
-              
-
-
-          </div>
-       
-      
+      <div class="contact-icons">
+        <div class="box-1 icon-box">
+          <a href="https://github.com/jessmcdonald" target="_blank" class="icon-link">
+            <img src="https://i.imgur.com/4dqq99D.png" width="40px" class="icon"/>
+          </a>
+        </div>
+        <div class="box-1 icon-box">
+          <a href="https://www.linkedin.com/in/jessicajanemcdonald" target="_blank" class="icon-link">
+            <img src="https://i.imgur.com/YsBNxL5.png" width="40px" class="icon"/>
+          </a>
+        </div>
+      </div>
     </div>
+
   </body>
 </html>
